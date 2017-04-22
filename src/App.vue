@@ -1,7 +1,7 @@
 <template lang="pug">
     #app
         vue-progress-bar
-        img(src='./assets/logo.png')
+        img(src='https://johinsdev.github.io/tistenToMusic/dist/logo.png')
         h1 PlatziMusic
         select(v-model="selectedCountry")
             option(v-for="country in countries" v-bind:value="country.value") {{ country.name }}
