@@ -36,7 +36,7 @@
                 getArtists(this.selectedCountry)
                     .then(function (artists) {
                         self.artists = artists;
-                        this.$Progress.finish();
+                        self.$Progress.finish();
                     })
             }
         },
